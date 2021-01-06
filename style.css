@@ -1,20 +1,9 @@
 body{
-    font-family: sans-serif;
+    font-family: 'poppins', sans-serif;
 }
 h1{
     font-size: 50px;
 }
 .name-highlight{
-    color: blue;
-}
-.half-width{
-    width: 40%;
-    float: left;
-    margin: 5%;
-    padding-left: 2%;
-
-}
-.half-width img{
-    width: 100%;
-
+    color: rgb(230, 230, 240);
 }
