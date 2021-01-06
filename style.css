@@ -1,9 +1,74 @@
 body{
+    margin: 0px;
     font-family: 'poppins', sans-serif;
 }
 h1{
+    font-size: 40px;
+    
+}
+h2{
     font-size: 50px;
 }
 .name-highlight{
-    color: rgb(230, 230, 240);
+    color: rgb(10, 10, 48);
 }
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 50%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    background-color: royalblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: seashell;
+    font-weight: 700;
+}
+.Dream-zone{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.column{
+    float: left;
+    width: 25%;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px rgb(233, 212, 212);
+    background-color: white;
+    height: 100%;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.footer-area{
+    margin-bottom: 0;
+    text-align: center;
+    color: darkslategrey;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
